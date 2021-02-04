@@ -50,5 +50,13 @@ namespace Calculator.Unit.Test
             Assert.That(_uut.Power(3,4),Is.EqualTo(81));
         }
 
+        [Test]
+
+        public void Power_PowerInExp_CorrectOutput2()
+        {
+            // Act + Assert
+
+            Assert.That(_uut.Power(3,3),Is.EqualTo(27));
+        }
     }
 }
